@@ -1,0 +1,16 @@
+Source: xmltoman
+Section: devel
+Priority: optional
+Maintainer: Adam Bilbrough <ats@atlas.cz>
+Build-Depends: debhelper (>= 10), libxml-parser-perl
+Standards-Version: 4.3.0
+Homepage: https://github.com/atsb/xmltoman
+
+Package: xmltoman
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, libxml-parser-perl
+Description: simple XML to man converter
+ xmltoman and xmlmantohtml are two small scripts to convert xml to man
+ pages in groff format or html. It features the usual man page items such a
+ "description", "options", "see also" etc.

@@ -1,0 +1,91 @@
+xmltoman (0.6-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Updated debian/watch to point to new upstream location.
+  * Updated debian/control with maintainer information.
+  * Updated debian/copyright with new maintainer and date.
+
+ -- Adam Bilbrough <ats@atlas.cz>  Sun, 19 May 2019 18:24:30 +0200
+
+xmltoman (0.5-1) unstable; urgency=medium
+
+  * New maintainer. (Closes: #647716).
+  * New upstream release.
+  * Added Multi-Arch: foreign to debian/control. (Closes: #862196).
+  * Updated debian/watch to point to new upstream location.
+  * Updated debian/control with maintainer information.
+  * Updated debian/copyright with new maintainer and date.
+
+ -- Adam Bilbrough <atsb@tutanota.de>  Wed, 23 Aug 2017 18:14:06 +0200
+
+xmltoman (0.4-4) unstable; urgency=medium
+
+  * QA upload.
+  * Migrations:
+      - debian/copyright to 1.0 format.
+      - debian/rules to new (reduced) format.
+      - DebSrc to 3.0.
+      - DH level to 10.
+  * debian/control:
+      - Added the ${misc:Depends} variable to provide the right install
+       dependencies.
+      - Bumped Standards-Version to 3.9.8.
+  * debian/copyright: updated all information and licenses.
+  * debian/install: created to install the scprits in the right place.
+  * debian/rules:
+      - Added a override in dh_usrlocal to remove useless files.
+  * debian/watch:
+      - Bumped to version 4.
+
+ -- Giovani Augusto Ferreira <giovani@debian.org>  Mon, 16 Jan 2017 16:08:47 -0200
+
+xmltoman (0.4-3) unstable; urgency=low
+
+  * Package maintainer set to Debian QA Group <packages@qa.debian.org>.
+
+ -- Ola Lundqvist <opal@debian.org>  Sat, 05 Nov 2011 17:07:02 +0100
+
+xmltoman (0.4-2) unstable; urgency=low
+
+  * debian/control:
+    - Standards-Version: 3.8.0.
+
+ -- Jose Carlos Medeiros <debian@psabs.com.br>  Sun, 15 Jun 2008 23:53:14 -0300
+
+xmltoman (0.4-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #417208)
+  * debian/watch updated. (Closes: #459997)
+  * debian/control: Update Homepage header.
+
+ -- Jose Carlos Medeiros <debian@psabs.com.br>  Sat, 22 Mar 2008 19:58:37 -0300
+
+xmltoman (0.3-2) unstable; urgency=low
+
+  * New mantainer. (closes: #452193)
+  * Updated package to cdbs. (closes: #395652)
+  * debian/control:
+    - Added cdbs build-dependence.
+    - Standards-Version: 3.7.3
+    - Added "Homepage:" pseudo-header as Reference 1.14.6.
+  * debian/compat: Added with compat 5.
+  * debian/examples: Added.
+  * debian/copyright: Updated Free Software Foundation address.
+  * debian/manpages: Added.
+  * debian/watch: Added.
+
+ -- Jose Carlos Medeiros <debian@psabs.com.br>  Tue, 18 Dec 2007 10:04:33 -0200
+
+xmltoman (0.3-1) unstable; urgency=low
+
+  * new release:
+    - man pages look much better now
+    - includes xsl, dtd and css files (Thanks, Lennart!)
+
+ -- Oliver Kurth <oku@debian.org>  Fri, 03 Oct 2003 15:34:04 +0200
+
+xmltoman (0.2-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Oliver Kurth <oku@debian.org>  Tue,  8 Oct 2002 22:37:00 +0200

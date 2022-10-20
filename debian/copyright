@@ -1,0 +1,34 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-name: xmltoman
+Source: https://github.com/atsb/xmltoman
+
+Files: *
+Copyright: 2000-2002 Oliver Kurth <oku@masqmail.cx>
+           2003      Lennart Poettering <mzkzygbzna@0pointer.de>
+	   2017-2019 Adam Bilbrough <ats@atlas.cz>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2002-2003 Oliver Kurth <oku@debian.org>
+           2007-2008 Jose Carlos Medeiros <debian@psabs.com.br>
+           2011      Ola Lundqvist <opal@debian.org>
+           2017      Giovani Augusto Ferreira <giovani@debian.org>
+           2017-2019 Adam Bilbrough <ats@atlas.cz>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
